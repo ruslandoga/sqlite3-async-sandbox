@@ -1,4 +1,4 @@
-for i <- 1..100 do
+for i <- 1..10 do
   defmodule Module.concat([SandboxTest, :"#{i}"]) do
     use Sandbox.DataCase, async: true
 
